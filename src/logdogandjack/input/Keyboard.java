@@ -33,13 +33,14 @@ public class Keyboard implements KeyListener{
 	}
 	
 	public void keyTyped(KeyEvent e) {
-		
+		/*
 		if(e.getKeyCode() == KeyEvent.VK_SPACE || e.getExtendedKeyCode() == KeyEvent.VK_SPACE) {
 			if(Level.player.getDir() == Direction.RIGHT)
 				new Projectile(Level.player.xRel + 66, Level.player.yRel + 32, true);
 			else
 				new Projectile(Level.player.xRel - 2, Level.player.yRel + 32, false);
 		}
+		*/
 	}
 
 	
